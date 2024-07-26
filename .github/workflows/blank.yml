@@ -34,5 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo Env secret, $ {{ MQ_SECRET_ONE }}
-          echo Env varilable,  $ {{ MQ_ENV_ONE }}
+          echo Env secret, $ {{ secrets.MQ_SECRET_ONE }}
+          echo Env varilable,  $ {{ secrets.MQ_ENV_ONE }}
